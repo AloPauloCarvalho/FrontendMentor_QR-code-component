@@ -4,26 +4,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0;
     background: #D5E1EF;
+    min-height: 100vh;
 }
-
 
 .card {
     background-color: white;
 
-    flex-shrink: 0;
-    width: 320px;
+    width: 18rem;
     padding:15px;
-    margin: auto auto;
     border-radius: 10px;
-    text-align: center;
 }
 
 .card-body {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     text-align: center;
+    gap: 16px;
 }
 
 .card-img-top {
@@ -43,6 +40,7 @@ h2 {
 
 p {
     color:#7D889E;
+    margin: 0 16px 0 16px;
    font-family: Outfit, sans-serif;
    font-weight: 400;
    font-size: 15px;
